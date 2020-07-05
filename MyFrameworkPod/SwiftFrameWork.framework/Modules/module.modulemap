@@ -1,0 +1,6 @@
+framework module SwiftFrameWork {
+  umbrella header "SwiftFrameWork.h"
+
+  export *
+  module * { export * }
+}

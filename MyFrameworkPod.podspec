@@ -29,7 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  # swift版本
+  s.swift_versions = "5.0"
+  # 静态库framework位置
+  s.vendored_frameworks = 'MyFrameworkPod/*.{framework}'
   s.source_files = 'MyFrameworkPod/Classes/**/*'
   
   # s.resource_bundles = {
